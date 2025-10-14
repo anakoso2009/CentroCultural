@@ -3,49 +3,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
-    background-color: black;
     color: white;
     margin: 0%;
      padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000000;
+}
 
+/*cabeçalho*/
 header {
-    width: 100%;
-    padding: 12px 20px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-   font-family: "Quicksand", sans-serif;
+width: 100%;
+padding: 12px 20px;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+font-family: "Quicksand", sans-serif;
 
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+list-style: none;
+display: flex;
+gap: 20px;
 }
 
 nav li {
-    display: inline-block;
+display: inline-block;
 }
 
 nav a {
-    padding: 10px 16px;
-    border-radius: 12px;
-    color: #000000;
-    background-color: #ffffff;
-    text-decoration: none;
-    font-weight: 650;
-    transition: all 0.3s ease;
+padding: 10px 16px;
+border-radius: 12px;
+color: #000000;
+background-color: #ffffff;
+text-decoration: none;
+font-weight: 650;
+transition: all 0.3s ease;
 }
 
 nav a:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-    background-color: #000000;
-    color: #ffffff;
+transform: translateY(-5px) scale(1.05);
+box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+background-color: #000000;
+color: #ffffff;
 }
 
 
@@ -53,7 +56,9 @@ nav a:hover {
 /*texto*/
 .estrutura {
 padding-left: 110px;
+padding-right: 110px;
 padding-top: 30px;
+
 
 p{
 font-size: 20px;
@@ -66,12 +71,15 @@ font-size: 50px;
 
 /*imagem*/
 .imagem {
-background-image: url(/IMG/1.\ \(1\).png);
-background-repeat: no-repeat;
-background-size: cover;
-width: 1513px;
-height: 750px;
+    
+    background-image: url(/IMG/1.\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1513px;
+    height: 750px;
+}
 
+.nossa-historia {
 h1{
 font-size: 50px;
 padding-left: 110px;
