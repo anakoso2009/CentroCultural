@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
 
 html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
     overflow-x: hidden;
     font-family: "Geologica", sans-serif;
-
-
 }
 
 * {
@@ -49,4 +50,131 @@ nav a:hover {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
     background-color: #000000;
     color: #ffffff;
+}
+
+
+.topo {
+    background: #f2a430;
+    color: white;
+    text-align: center;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: "Geologica", sans-serif;
+
+}
+
+.topo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 204, 0, 0.7);
+}
+
+.texto-topo {
+    position: relative;
+    z-index: 2;
+}
+
+.topo h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+.topo span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.topo p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 0.9rem;
+}
+
+
+
+
+/* Cursos */
+.cursos {
+    background-color: #f2a22b;
+    padding: 60px 20px;
+}
+
+.secaopintura,
+.secaofoto {
+    display: flex;
+    flex-direction: row;
+    height: 20cm;
+}
+
+.secaopintura img, .secaofoto img {
+    width: 300px;
+    border: 30px solid white;
+}
+
+#beijo, #cafe {
+    width: 11cm;
+    height: 12cm;
+    margin: 2cm;
+}
+
+#girassol, #urban {
+    width: 12cm;
+    height: 8cm;
+    margin: 2cm;
+
+}
+
+
+
+.secaopintura p,
+.secaofoto p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+    background-color: #3f2bf2;
+}
+
+.secaopintura h3,
+.secaofoto h3 {
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+}
+
+
+#pesquerda,
+#fdireita {
+    font-family: "Geologica", sans-serif;
+    color: white;
+    width: 50%;
+    height: 18cm;
+    background-color: aqua;
+
+}
+
+#pesquerda img,
+#fdireita img {
+    height: 100%;
+    margin-top: 3c;
+    background-color: ===;
+    
+}
+
+
+
+#pdireita, #fesquerda {
+    background-color: violet;
+    font-family: "Geologica", sans-serif;
+    color: white;
+    width: 50%;
 }
