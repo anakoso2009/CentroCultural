@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtesVisuais</title>
+    <link rel="stylesheet" href="../../assets/styleArtesVisuais.css">
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./pages/principais/Programação.html">Programação</a></li>
+                <li><a href="./pages/principais/contato.html">Contato</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/pages/principais/sobrenos.html">Sobre nós</a></li>
+                <li><a href="./pages/principais/CulturaCCM.html">Cultura da CCM</a></li>
+            </ul>
+        </nav>
+    </header>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
