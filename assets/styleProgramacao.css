@@ -41,7 +41,6 @@ body {
   font-family: Arial, sans-serif;
   background: #e1f4fb;
   color: #222;
-  margin: 0;
 }
 
 .zira {
@@ -71,8 +70,8 @@ font-size: 78px;
  text-align: center;
    font-size: 58px;
   margin-bottom: 32px;
-  font-style: italic;
 }
+
 
 
 .grade {
