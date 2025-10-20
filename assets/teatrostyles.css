@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Lacquer&family=Parisienne&display=swap');
+
+body {
+    background-color:#F2E3CE;
+  font-family: Arial, sans-serif;
+  color: #2b2b2b;
+text-align: center;
+  font-size: 17px;
+}
+
+
+.introducao {
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 17px;
+}
+
+.secao-laranja {
+  background-color: #f0a437;
+  color: white;
+  text-align: center;
+  padding: 17px;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+    font-family: "Gilda Display", serif;
+  letter-spacing: 1px;
+}
+
+.texto {
+  padding: 20px 40px;
+  font-size: 16px;
+  line-height: 1.6;
+
+}
+
+.banner-teatro {
+  display: flex;
+justify-content: center;
+  margin: 32px 0;
+}
+
+.imagem{
+    justify-content: center;
+}
+
+
+.quadro-texto-teatro {
+  background: #ebb260;
+  color: white;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  font-family: "Gilda Display", serif;
+  font-size: 90px;
+  font-weight: bold;
+  width: 1000%;
+  text-align: center;
+
+}

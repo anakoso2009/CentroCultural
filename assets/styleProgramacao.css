@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 /*cabeçalho*/
 .nav {
 padding: 12px 20px;
@@ -39,7 +41,6 @@ body {
   font-family: Arial, sans-serif;
   background: #e1f4fb;
   color: #222;
-  margin: 0;
 }
 
 .zira {
@@ -51,6 +52,7 @@ body {
 }
 
 header h1 {
+font-family: "Quicksand", sans-serif;
   font-size: 64px;
   margin: 0;
 margin-top: -22px;
@@ -68,8 +70,8 @@ font-size: 78px;
  text-align: center;
    font-size: 58px;
   margin-bottom: 32px;
-  font-style: italic;
 }
+
 
 
 .grade {
@@ -86,7 +88,7 @@ font-size: 78px;
 .card button {
   position: absolute;
   bottom: -9px;
-  right: 5px;
+  right: -7px;
   background: #4183ff;
   color: white;
   border: none;
@@ -107,9 +109,6 @@ font-size: 78px;
   object-fit: cover;
 }
 
-.conteudo {
-  padding: 16px;
-}
 
 .tipo {
   font-size: 17px;
@@ -127,7 +126,6 @@ font-size: 78px;
   background: #0000cc;
 }
 
-
 /*Footer*/
 footer {
     background-color: black;
@@ -144,3 +142,4 @@ footer {
     padding: 7px;
 }
 /*FIM FOOTER*/
+
