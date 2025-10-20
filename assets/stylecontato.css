@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  font-family: "Geologica", sans-serif;
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 10px 16px;
+  border-radius: 12px;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-weight: 650;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+body {
+  background-color: #b246ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/736x/5d/5e/96/5d5e96d6993938e4f92ed5baf9d77707.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  width: 70%;
+  max-width: 720px;
+  border-radius: 12px;
+  margin: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+main h1 {
+  margin-top: 0.5rem;
+  font-size: 1.3CM;
+  color: #005a9a;
+  text-align: center;
+}
+
+
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Geologica", sans-serif;
+}
+
+label {
+  margin-top: 0.6rem;
+  font-size: 20PX;
+  color: #000000;
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+input,
+select,
+textarea {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #EDEDED;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+textarea { min-height: 8rem; resize: vertical; }
+
+select {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #E5E5E5;
+  font-size: 106x;
+  margin-bottom: 16px;
+  margin-top: 8px;
+
+
+}
+
+
+input[type="submit"] {
+  background-color: #5d00b4;
+  color: white;
+  border: none;
+  height: 50px;
+  border-radius: 8px;
+  width: 100%;
+  font-family: "Geologica", sans-serif;
+/* action buttons: stacked on small screens, sit side-by-side on wide screens if wrapped in .form-actions */
+.form-actions { display:flex; gap: 0.75rem; margin-top: 1rem; }
+
+input[type="submit"], input[type="reset"] {
+  flex: 1;
+  background-color: #090000;
+  color: white;
+  border: none;
+  height: 44px;
+  border-radius: 8px;
+  font-family: "Geologica", sans-serif;
+  cursor: pointer;
+}
+
+}
+
+
+
+input[type="reset"] {
+  background-color: #07ADC3;
+  color: white;
+  border: none;
+  height: 50px;
+  border-radius: 8px;
+  width: 100%;
+  font-family: "Geologica", sans-serif;
+
+}
+
+
+input[type="submit"]:hover {
+  background-color: hwb(98 27% 0%);
+}
+
+input[type="reset"]:hover {
+  background-color: #00199E;
+}
+
+footer {
+  margin-top: 1.25rem;
+  text-align: center;
+  justify-content: center;
+  background-color: #07ADC3;
+  color: #fbfcff;
+  width: 100%;
+  padding: 0.75rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3,
+  label {
+    font-size: 18px;
+  }
+
+  input,
+  select {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  main {
+    width: 95%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h3,
+  label {
+    font-size: 16px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    height: 45px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 9px;
+}
+
+.espaço {
+    padding: 7px;
+}
+/*FIM FOOTER*/

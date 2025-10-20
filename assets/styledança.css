@@ -6,8 +6,6 @@
     margin: 0%;
 }
 
-
-
 /*cabeçalho*/
 header {
     padding: 12px 20px;
@@ -45,13 +43,15 @@ nav a:hover {
     color: #ffffff;
 }
 
+/*FIM CABEÇALHO*/
+
 /*imagem dança*/
 .imagem-danca {
-    background-image: url(/IMG/Dança.png);
+    background-image: url(/IMG/imgmariamanso/Dança.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 750px;
+    height: 950px;
     display: flex;
     align-items: end;
     justify-content: center;
@@ -67,12 +67,15 @@ nav a:hover {
     }
 }
 
+/*FIM IMAGEM DANÇA*/
+
 /*texto de introdução*/
 #texto1 {
-    padding-top: 150px;
+    padding-top: 270px;
+    padding-bottom: 270px;
 
     h1 {
-        font-size: 70px;
+        font-size: 90px;
         padding-left: 110px;
         font-family: "Epilogue", sans-serif;
         color: #6B1E1E;
@@ -82,8 +85,8 @@ nav a:hover {
     }
 
     h2 {
-        font-size: 70px;
-        padding-left: 280px;
+        font-size: 90px;
+        padding-left: 320px;
         font-family: "Epilogue", sans-serif;
         color: #6B1E1E;
         text-align: left;
@@ -92,65 +95,288 @@ nav a:hover {
     }
 
     p {
-        font-size: 25px;
-        padding-left: 280px;
+        font-size: 30px;
+        padding-left: 320px;
         font-family: "Quicksand", sans-serif;
     }
 }
 
-.esquerda {
-    padding-top: 150px;
-    background-image: url(/IMG/Sapateado.png);
+/*FIM TEXTO INTRODUÇÃO*/
+
+/*SAPATEADO*/
+#sapateadoimg {
+    background-image: url(/IMG/imgmariamanso/Sapateado.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 900px;
-    height: 900px;
+    width: 45%;
+    height: 650px;
+}
+
+
+#divsa {
+    width: 55%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+#sapateadoesquerda {
+    display: flex;
+    flex-direction: row;
+}
+
+/*FIM SAPATEADO*/
+
+/*BALLET CLASSICO*/
+#divballet {
+    width: 55%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: #6B1E1E;
+}
+
+#balletimg {
+    background-image: url(/IMG/imgmariamanso/balletclassico.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#balletdireita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*FIM BALLET CLASSICO*/
+
+/*CONTEMPORANEO*/
+#contemporaneoimg {
+    background-image: url(/IMG/imgmariamanso/contemporaneo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#divcontemporaneo {
+    width: 55%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+#contemporaneoesquerda {
+    display: flex;
+    flex-direction: row;
+}
+
+/*FIM CONTEMPORANEO*/
+
+/*BALLET NEOCLASSICO*/
+#divballetneo {
+    width: 55%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: #6B1E1E;
+}
+
+#balletneoimg {
+    background-image: url(/IMG/imgmariamanso/balletneo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#balletneodireita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*FIM BALLET NEOCLASSICO*/
+
+/*DANÇAS POPULARES BRASILEIRAS*/
+#dançasbrasileirasimg {
+    background-image: url(/IMG/imgmariamanso/dançaBR.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 670px;
+}
+
+#divdançasbrasileiras {
+    width: 55%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+#dançasbrasileirasesquerda {
+    display: flex;
+    flex-direction: row;
+}
+
+/*FIM DANÇAS POPULARES BRASILEIRAS*/
+
+/*JAZZ*/
+#divJazz {
+    width: 55%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: #6B1E1E;
+}
+
+#Jazzimg {
+    background-image: url(/IMG/imgmariamanso/Jazz.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#Jazzdireita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*FIM JAZZ*/
+
+/*Titulos e sub*/
+.subtitulo {
+    font-size: 90px;
+    font-family: "Epilogue", sans-serif;
+    color: #6B1E1E;
+    text-align: right;
+    padding-right: 70px;
+    letter-spacing: 30px;
+    font-weight: bold;
+}
+
+.texto {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: right;
+    padding-bottom: 30px;
+
+}
+
+#subtitulobr {
+    font-size: 80px;
+    font-family: "Epilogue", sans-serif;
+    color: #6B1E1E;
+    text-align: center;
+    padding-left: 70px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+#textobr {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: right;
+    padding-bottom: 30px;
+
+}
+
+#subtitulodballet {
+    font-size: 90px;
+    font-family: "Epilogue", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    padding-right: 70px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+#textodballet {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+#subtitulodneo {
+    font-size: 76px;
+    font-family: "Epilogue", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    padding-right: 70px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+#textodneo {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+#subtitulodjazz {
+    font-size: 76px;
+    font-family: "Epilogue", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 70px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+#textodjazz {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+/*FIM titulos e sub*/
+
+/*CARDS*/
+#talentos-nacionais {
+    font-size: 50px;
+    font-family: "Epilogue", sans-serif;
+    color: #6B1E1E;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+.imagemsagioro {
+    background-image: url(/IMG/imgmariamanso/Luciana\ Sagioro.jpeg);
+    background-repeat: no-repeat;
+    width: 100%px;
+    height: 470px;
+    background-position: center;
     
 }
-.letras{
-    h1 {
-        font-size: 70px;
-        font-family: "Epilogue", sans-serif;
-        color: #6B1E1E;
-       
-    }
 
-    p {
-        font-size: 20px;
-        font-family: "Quicksand", sans-serif;
-        
-    }
-}
-
-.direita {
-
-    padding-top: 150px;
-    background-image: url(/IMG/Ballet.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 900px;
-    height: 900px;
-
-        h1 {
-        font-size: 70px;
-        font-family: "Epilogue", sans-serif;
-        color: #6B1E1E;
-        letter-spacing: 10px;
-       
-    }
-
-    p {
-        font-size: 20px;
-        font-family: "Quicksand", sans-serif;
-        
-    }
-}
-
-
-.divisoria {
+.card1 {
     background-color: #D9D9D9;
-        height: 32px;
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    
+    
+
+    p {
+        font-family: "Quicksand", sans-serif;  
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
 }
+
+.cards1{
+    padding: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+/*FIMCARDS*/
+
 
 /*ultima parte*/
 #ultima-parte {
@@ -178,23 +404,50 @@ nav a:hover {
     }
 }
 
+/*FIM ULTIMA PARTE*/
+
 /*Footer*/
 footer {
     background-color: black;
     width: 100%;
-    height: 40px;
+    height: 90px;
     text-align: center;
     font-family: "Quicksand", sans-serif;
     color: white;
+    font-size: 20px;
+    padding-top: 9px;
 }
 
 .espaço {
-    padding: 5px;
+    padding: 7px;
 }
 
-.espaço2{
+/*FIM FOOTER*/
+
+/*ITENS EXTRAS*/
+.espaço2 {
     padding: 15px;
 }
 
+.letras {
+    h1 {
+        font-size: 70px;
+        font-family: "Epilogue", sans-serif;
+        color: #6B1E1E;
 
-/* CARDS */
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Quicksand", sans-serif;
+
+    }
+}
+
+.divisoria {
+    background-color: #D9D9D9;
+    height: 32px;
+}
+/*FIM ITENS EXTRAS*/
+
+
