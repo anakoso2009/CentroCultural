@@ -17,7 +17,7 @@ body {
 
 header {
     padding: 12px 20px;
-    background-color: #ffffff;
+    background-color: #fffabf;
     display: flex;
     justify-content: center;
     font-family: "Quicksand", sans-serif;
@@ -37,8 +37,8 @@ nav li {
 nav a {
     padding: 10px 16px;
     border-radius: 12px;
-    color: #000000;
-    background-color: #ffffff;
+    color: #f5ee8e;
+    background-color: #f9d88c;
     text-decoration: none;
     font-weight: 650;
     transition: all 0.3s ease;
@@ -72,7 +72,7 @@ nav a:hover {
 
 
 .intro {
-  background: url('../Capturar\ brasil.PNG') center/cover no-repeat;
+  background-color: rgb(250, 227, 196);
   height: 250px;
   display: flex;
   align-items: center;
@@ -103,6 +103,7 @@ nav a:hover {
   align-items: center;
   padding: 60px;
   transition: all 0.4s ease;
+  overflow: visible;
 }
 
 .card::before {
@@ -114,6 +115,26 @@ nav a:hover {
   transition: background 0.3s;
 }
 
+.card.esquerda {
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 60px; 
+}
+
+
+
+.card.direita {
+  padding-left: 1400px; 
+  margin-right: 10px;
+  position: relative;
+}
+
+.card.direita2{
+  padding-left: 1300px;
+  margin-right: 10px;
+  position: relative;
+}
+
 .card h2 {
   position: relative;
   z-index: 2;
@@ -122,42 +143,39 @@ nav a:hover {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
+  max-width: 50%;         
+  word-wrap: break-word;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.card.direita h2 {
+  margin-left: -6cm;      
+  text-align: right;
 }
 
 .card:hover::before {
   background: rgba(0, 0, 0, 0.25);
+
 }
 
-
-.card.esquerda {
-  justify-content: flex-start;
-  text-align: left;
-}
-
-.card.direita {
-  justify-content: flex-end;
-  text-align: right;
-}
 
 #danca {
-  background-image: url('../Capturar\ dança.PNG');
+  background-image: url("../IMG/Capturar dança.PNG");
 }
 
 #artes {
-  background-image: url('../Capturar\ artes\ visuais.PNG');
+  background-image: url("../IMG/Capturar artes visuais.PNG");
 }
 
 #musica {
-  background-image: url('../Capturar\ musica.PNG');
+  background-image: url("../IMG/Capturar musica.PNG");
 }
 
 #teatro {
-  background-image: url('../Capturar\ teatro.PNG');
+  background-image: url("../IMG/Capturar teatro.PNG");
 }
 
-#moda {
-  background-image: url('../Capturar\ moda.png');
-}
+
 
 
 @media (max-width: 900px) {
