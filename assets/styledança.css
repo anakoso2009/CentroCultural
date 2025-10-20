@@ -123,6 +123,33 @@ nav a:hover {
 
 /*FIM SAPATEADO*/
 
+/*BALLET CLASSICO*/
+
+
+#divballet {
+    width: 55%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: #6B1E1E;
+}
+
+#balletimg{
+    background-image: url(/IMG/balletclassico.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#balletdireita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*FIM BALLET CLASSICO*/
+
+
+
+
 /*Titulos e sub*/
 .subtitulo {
     font-size: 90px;
@@ -145,10 +172,10 @@ nav a:hover {
 .subtitulod {
     font-size: 90px;
     font-family: "Epilogue", sans-serif;
-    color: #6B1E1E;
+    color: #ffffff;
     text-align: left;
     padding-right: 70px;
-    letter-spacing: 40px;
+    letter-spacing: 20px;
     font-weight: bold;
 }
 
@@ -157,7 +184,7 @@ nav a:hover {
     font-family: "Quicksand", sans-serif;
     text-align: left;
     padding-bottom: 30px;
-
+    color: #ffffff;
 }
 /*FIM titulos e sub*/
 
