@@ -41,7 +41,60 @@ body {
     position: relative;
     text-align: justify;
     display: flex;
-    padding-left: 1000px;
+    padding-top: 10px;
+    padding-left: 1100px;
    
 
+}
+
+.th3{
+    color: #641737;
+    position: relative;
+    text-align: justify;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 10px;
+
+}
+
+.th4{
+    color: #641737;
+    position: relative;
+    text-align: justify;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 1100px;
+   
+
+}
+
+.th5{
+    color: #641737;
+    position: relative;
+    text-align: justify;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 10px;
+
+}
+.titulo2 {
+    color: #FF0073;
+    text-align: center;
+}
+
+.musicaerudita {
+    background-color: #FF7CC2;
+}
+
+.me  {
+    color: beige;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tj {
+    color: #641737;
+     display: flex; /* Ativa o Flexbox */
+  flex-direction: row; /* Define os itens em linha (padrão) */
+  gap: 10px;
 }
