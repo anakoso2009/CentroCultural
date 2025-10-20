@@ -7,12 +7,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 
+html,
 body {
-    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    font-family: "Geologica", sans-serif;
+
+
 }
 
-/*cabeçalho*/
+* {
+    box-sizing: border-box;
+}
+
 header {
     width: 100%;
     padding: 12px 20px;
@@ -31,6 +42,21 @@ header {
 }
 
 .nav-bar-1 a {
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+
     padding: 10px 16px;
     border-radius: 12px;
     color: #000000;
@@ -41,14 +67,12 @@ header {
 }
 
 .nav-bar-1 a:hover {
+nav a:hover {
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
     background-color: #000000;
     color: #ffffff;
 }
-
-
-
 /*texto*/
 .estrutura {
     padding-left: 300px;

@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 
 html,
 body {
     margin: 0;
     padding: 0;
+    background-color: #000;
     overflow-x: hidden;
     font-family: "Geologica", sans-serif;
+
+
 }
 
 * {
@@ -51,8 +53,6 @@ nav a:hover {
     background-color: #000000;
     color: #ffffff;
 }
-
-
 
 
 
@@ -173,10 +173,6 @@ header {
     position: relative;
     z-index: 20;
 }
-
-
-
-
 
 
 
@@ -428,9 +424,4 @@ footer {
     font-family: "Quicksand", sans-serif;
     color: white;
     font-size: 20px;
-    padding-top: 9px;
-}
-
-.espaço {
-    padding: 7px;
 }
