@@ -1,4 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Lacquer&family=Parisienne&display=swap');
+.nav {
+padding: 12px 20px;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+font-family: "Quicksand", sans-serif;
+
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+nav li {
+display: inline-block;
+}
+
+nav a {
+padding: 10px 16px;
+border-radius: 12px;
+color: #000000;
+background-color: #ffffff;
+text-decoration: none;
+font-weight: 650;
+transition: all 0.3s ease;
+}
+
+nav a:hover {
+transform: translateY(-5px) scale(1.05);
+box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+background-color: #000000;
+color: #ffffff;
+}
 
 body {
     background-color:#F2E3CE;
@@ -19,7 +54,8 @@ text-align: center;
   background-color: #f0a437;
   color: white;
   text-align: center;
-  padding: 17px;
+  padding: 17px; 
+  /*distância entre o conteúdo e a sua borda*/
   font-size: 32px;
   font-style: italic;
   font-weight: bold;
@@ -64,3 +100,17 @@ justify-content: center;
     flex-direction: column; 
   } 
 }
+/*Footer*/
+footer {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 9px;
+}
+
+
+/*FIM FOOTER*/
