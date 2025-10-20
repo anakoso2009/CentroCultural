@@ -42,6 +42,7 @@ nav a:hover {
     background-color: #000000;
     color: #ffffff;
 }
+
 /*FIM CABEÇALHO*/
 
 /*imagem dança*/
@@ -54,6 +55,7 @@ nav a:hover {
     display: flex;
     align-items: end;
     justify-content: center;
+        
 
     h1 {
         font-size: 250px;
@@ -65,6 +67,7 @@ nav a:hover {
         letter-spacing: 60px;
     }
 }
+
 /*FIM IMAGEM DANÇA*/
 
 /*texto de introdução*/
@@ -98,6 +101,7 @@ nav a:hover {
         font-family: "Quicksand", sans-serif;
     }
 }
+
 /*FIM TEXTO INTRODUÇÃO*/
 
 /*SAPATEADO*/
@@ -131,7 +135,7 @@ nav a:hover {
     background-color: #6B1E1E;
 }
 
-#balletimg{
+#balletimg {
     background-image: url(/IMG/imgmariamanso/balletclassico.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,6 +147,7 @@ nav a:hover {
     display: flex;
     flex-direction: row-reverse;
 }
+
 /*FIM BALLET CLASSICO*/
 
 /*CONTEMPORANEO*/
@@ -164,6 +169,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
 }
+
 /*FIM CONTEMPORANEO*/
 
 /*BALLET NEOCLASSICO*/
@@ -174,7 +180,7 @@ nav a:hover {
     background-color: #6B1E1E;
 }
 
-#balletneoimg{
+#balletneoimg {
     background-image: url(/IMG/imgmariamanso/balletneo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,6 +192,7 @@ nav a:hover {
     display: flex;
     flex-direction: row-reverse;
 }
+
 /*FIM BALLET NEOCLASSICO*/
 
 /*DANÇAS POPULARES BRASILEIRAS*/
@@ -207,6 +214,8 @@ nav a:hover {
     display: flex;
     flex-direction: row;
 }
+
+
 /*FIM DANÇAS POPULARES BRASILEIRAS*/
 
 /*JAZZ*/
@@ -217,7 +226,7 @@ nav a:hover {
     background-color: #6B1E1E;
 }
 
-#Jazzimg{
+#Jazzimg {
     background-image: url(/IMG/imgmariamanso/Jazz.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,12 +238,8 @@ nav a:hover {
     display: flex;
     flex-direction: row-reverse;
 }
+
 /*FIM JAZZ*/
-
-
-
-
-
 
 /*Titulos e sub*/
 .subtitulo {
@@ -270,7 +275,7 @@ nav a:hover {
     font-family: "Quicksand", sans-serif;
     text-align: right;
     padding-bottom: 30px;
-
+    
 }
 
 #subtitulodballet {
@@ -326,12 +331,100 @@ nav a:hover {
     padding-bottom: 30px;
     color: #ffffff;
 }
+
 /*FIM titulos e sub*/
 
+/*CARDS*/
+#talentos-nacionais {
+    font-size: 50px;
+    font-family: "Epilogue", sans-serif;
+    color: #6B1E1E;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
 
+#imagemsagioro {
+    background-image: url(/IMG/imgmariamanso/Luciana\ Sagioro.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 470px;
+    background-position: center;
+    
+}
 
+#imagemmayara {
+    background-image: url(/IMG/imgmariamanso/Mayara\ Magri.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 470px;
+    background-position: center;
+}
 
+#imagemantonia {
+    background-image: url(/IMG/imgmariamanso/Antonia\ Manrique.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 470px;
+    background-position: center; 
+}
 
+.card2:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.card1:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+    background-color: #D9D9D9;
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    
+    
+
+    p {
+        font-family: "Quicksand", sans-serif;  
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+}
+
+.card2 {
+    background-color: #D9D9D9;
+    width: 550px;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    
+    
+
+    p {
+        font-family: "Quicksand", sans-serif;  
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+}
+
+.cards1{
+    padding-bottom: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+/*FIMCARDS*/
 
 
 /*ultima parte*/
@@ -340,7 +433,7 @@ nav a:hover {
     height: 720px;
     align-items: center;
     padding: 60px;
-    
+
     h1 {
         font-size: 70px;
         font-family: "Epilogue", sans-serif;
@@ -348,9 +441,9 @@ nav a:hover {
         letter-spacing: 15px;
         font-weight: bold;
         text-align: center;
-        
+
     }
-    
+
     p {
         font-size: 30px;
         font-family: "Quicksand", sans-serif;
@@ -359,6 +452,8 @@ nav a:hover {
         padding-top: 40px;
     }
 }
+
+
 
 /*FIM ULTIMA PARTE*/
 
@@ -377,6 +472,7 @@ footer {
 .espaço {
     padding: 7px;
 }
+
 /*FIM FOOTER*/
 
 /*ITENS EXTRAS*/
@@ -389,13 +485,13 @@ footer {
         font-size: 70px;
         font-family: "Epilogue", sans-serif;
         color: #6B1E1E;
-        
+
     }
-    
+
     p {
         font-size: 20px;
         font-family: "Quicksand", sans-serif;
-        
+
     }
 }
 
@@ -404,3 +500,5 @@ footer {
     height: 32px;
 }
 /*FIM ITENS EXTRAS*/
+
+
