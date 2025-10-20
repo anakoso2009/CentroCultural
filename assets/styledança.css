@@ -46,7 +46,7 @@ nav a:hover {
 
 /*imagem dança*/
 .imagem-danca {
-    background-image: url(/IMG/Dança.png);
+    background-image: url(/IMG/imgmariamanso/Dança.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -102,7 +102,7 @@ nav a:hover {
 
 /*SAPATEADO*/
 #sapateadoimg {
-    background-image: url(/IMG/tapado.png);
+    background-image: url(/IMG/imgmariamanso/Sapateado.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 45%;
@@ -124,8 +124,6 @@ nav a:hover {
 /*FIM SAPATEADO*/
 
 /*BALLET CLASSICO*/
-
-
 #divballet {
     width: 55%;
     padding-top: 100px;
@@ -134,7 +132,7 @@ nav a:hover {
 }
 
 #balletimg{
-    background-image: url(/IMG/balletclassico.png);
+    background-image: url(/IMG/imgmariamanso/balletclassico.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 45%;
@@ -147,6 +145,94 @@ nav a:hover {
 }
 /*FIM BALLET CLASSICO*/
 
+/*CONTEMPORANEO*/
+#contemporaneoimg {
+    background-image: url(/IMG/imgmariamanso/contemporaneo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#divcontemporaneo {
+    width: 55%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+#contemporaneoesquerda {
+    display: flex;
+    flex-direction: row;
+}
+/*FIM CONTEMPORANEO*/
+
+/*BALLET NEOCLASSICO*/
+#divballetneo {
+    width: 55%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: #6B1E1E;
+}
+
+#balletneoimg{
+    background-image: url(/IMG/imgmariamanso/balletneo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#balletneodireita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*FIM BALLET NEOCLASSICO*/
+
+/*DANÇAS POPULARES BRASILEIRAS*/
+#dançasbrasileirasimg {
+    background-image: url(/IMG/imgmariamanso/dançaBR.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 670px;
+}
+
+#divdançasbrasileiras {
+    width: 55%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+#dançasbrasileirasesquerda {
+    display: flex;
+    flex-direction: row;
+}
+/*FIM DANÇAS POPULARES BRASILEIRAS*/
+
+/*JAZZ*/
+#divJazz {
+    width: 55%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: #6B1E1E;
+}
+
+#Jazzimg{
+    background-image: url(/IMG/imgmariamanso/Jazz.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 650px;
+}
+
+#Jazzdireita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*FIM JAZZ*/
+
+
+
 
 
 
@@ -157,7 +243,7 @@ nav a:hover {
     color: #6B1E1E;
     text-align: right;
     padding-right: 70px;
-    letter-spacing: 40px;
+    letter-spacing: 30px;
     font-weight: bold;
 }
 
@@ -169,7 +255,25 @@ nav a:hover {
 
 }
 
-.subtitulod {
+#subtitulobr {
+    font-size: 80px;
+    font-family: "Epilogue", sans-serif;
+    color: #6B1E1E;
+    text-align: center;
+    padding-left: 70px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+#textobr {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: right;
+    padding-bottom: 30px;
+
+}
+
+#subtitulodballet {
     font-size: 90px;
     font-family: "Epilogue", sans-serif;
     color: #ffffff;
@@ -179,7 +283,43 @@ nav a:hover {
     font-weight: bold;
 }
 
-.textod {
+#textodballet {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+#subtitulodneo {
+    font-size: 76px;
+    font-family: "Epilogue", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    padding-right: 70px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+#textodneo {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+#subtitulodjazz {
+    font-size: 76px;
+    font-family: "Epilogue", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 70px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+#textodjazz {
     font-size: 30px;
     font-family: "Quicksand", sans-serif;
     text-align: left;
