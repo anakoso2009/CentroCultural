@@ -76,6 +76,7 @@ font-size: 78px;
 
 .grade {
   display: grid;
+  /*linhas e colunas*/
   grid-template-columns: 1fr 1fr; 
   /*diz quantas colunas essa prateleira
    vai ter e qual o tamanho de cada coluna.
@@ -96,10 +97,12 @@ font-size: 78px;
   width: 80px;
   height: 80px;
 }
-/* Card de evento */
+
 .card {
   background: #fff;
   position: relative;
+  /*deslocado top, bottom,left e right 
+  sem alterar o espaço que ele ocupa no layout*/
   text-align: left;
 }
 
@@ -124,4 +127,17 @@ font-size: 78px;
 
 .card button:hover {
   background: #0000cc;
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    /*quando o espaço diminuir deixar o nav em colunas com espaço
+    de 10 px entre eles*/
+  }
+  .grade {
+    /*quando em espaço menor diminuir fração do espaço disponível*/
+    grid-template-columns: 1fr;
+  }
 }
