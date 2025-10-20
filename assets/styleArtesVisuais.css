@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Geologica", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 10px 16px;
+    border-radius: 12px;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 650;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+
+
+/*BANNER INICIAL */
+
+.topo {
+    height: 17.5cm;
+    position: relative;
+    background: #f2a430;
+    color: white;
+    text-align: start;
+    background-image: url('/IMG/bannerAV.png');
+    background-size: cover;
+    background-position: center;
+    font-family: "Geologica", sans-serif;
+
+}
+
+.topo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 162, 0, 0.7);
+    z-index: 1;
+}
+
+
+
+.texto-topo {
+    position: relative;
+    z-index: 2;
+
+}
+
+#t1 {
+    font-size: 6cm;
+    font-weight: 900;
+    letter-spacing: 40px;
+    margin: 0;
+    margin-left: 2cm;
+}
+
+#t2 {
+    font-size: 3.5cm;
+    letter-spacing: 40px;
+    margin: 0;
+    font-family: "Gravitas One", serif;
+    margin-top: -50px;
+    margin-left: 2cm;
+}
+
+.topo h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+
+#conheca {
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-top: -3cm;
+    text-align: center;
+    letter-spacing: 20px;
+    margin: 40px 0 20px 0;
+    color: #ffffff;
+}
+
+
+.video-bg {
+    position: relative;
+    width: 100%;
+    height: 10cm;
+    overflow: hidden;
+}
+
+.video-bg video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+
+.topo p {
+    max-width: 25cm;
+    margin: 15px 0 15px 2cm;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+    text-shadow:
+        3px 3px 0 #a33b00,
+        -3px 3px 0 #a33b00,
+        3px -3px 0 #a33b00,
+        -3px -3px 0 #a33b00,
+        0 3px 0 #a33b00,
+        3px 0 0 #a33b00,
+        -3px 0 0 #a33b00,
+        0 -3px 0 #a33b00;
+    line-height: 25px;
+}
+
+header {
+    position: relative;
+    z-index: 20;
+}
+
+
+
+
+
+
+
+
+
+
+/* Cursos */
+
+.cursos {
+    background-color: #f2a22b;
+    padding: 60px 20px;
+}
+
+
+
+/* PINTURA */
+
+.secaopintura {
+    display: flex;
+    flex-direction: row;
+    height: 20cm;
+}
+
+.secaopintura img {
+    width: 300px;
+    border: 40px solid white;
+}
+
+#beijo {
+    width: 13cm;
+    margin: 2cm;
+}
+
+#girassol {
+    width: 16cm;
+    height: 10cm;
+    margin: 2cm;
+
+
+}
+
+
+.secaopintura p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+}
+
+.secaopintura h3 {
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+}
+
+
+#pesquerda {
+    font-family: "Geologica", sans-serif;
+    color: white;
+    width: 50%;
+    height: 18cm;
+
+}
+
+#pesquerda img {
+    height: 100%;
+    margin-top: 3cm;
+}
+
+
+#pdireita {
+    font-family: "Geologica", sans-serif;
+    color: white;
+    width: 50%;
+}
+
+
+
+
+
+/*FOTOGRAFIA*/
+
+
+#secaofoto {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+
+}
+
+#fdireita {
+    width: 50%;
+}
+
+#fesquerda {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Geologica", sans-serif;
+}
+
+
+
+#cafe {
+    margin-top: 3cm;
+    background-image: url("../IMG/cafe.png");
+    background-repeat: no-repeat;
+    background-size: 87%;
+    min-height: 18cm;
+    width: 13cm;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+}
+
+#urban {
+    margin-top: 1cm;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 15cm;
+    background-image: url(../IMG/urban.png);
+    min-height: 10cm;
+    height: auto;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    margin-left: 2cm;
+
+}
+
+
+#secaofoto p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+}
+
+#secaofoto h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+    letter-spacing: -5px;
+}
+
+
+
+
+/*ESCULTURA*/
+
+
+
+#secaoes {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+
+}
+
+#edireita {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eesquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Geologica", sans-serif;
+}
+
+
+
+#david {
+    margin-top: 2cm;
+    background-image: url("../IMG/david.png");
+    background-repeat: no-repeat;
+    background-size: 87%;
+    min-height: 18cm;
+    width: 13cm;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+}
+
+#tres {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 15cm;
+    background-image: url("../IMG/mocas.png");
+    min-height: 9cm;
+    /* aumentado para mostrar mais da imagem */
+    height: auto;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    margin-left: 2cm;
+
+}
+
+
+#secaoes p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+}
+
+#secaoes h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+    letter-spacing: -5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(108, 0, 0);
+}
+
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 9px;
+}
+
+.espaço {
+    padding: 7px;
+}
