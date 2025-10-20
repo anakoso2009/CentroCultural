@@ -1,57 +1,58 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    font-family: "Geologica", sans-serif;
+
+
+}
+
 * {
-    color: white;
-    margin: 0%;
-     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #000000;
-}
-
-/*cabeçalho*/
 header {
-width: 100%;
-padding: 12px 20px;
-background-color: #ffffff;
-display: flex;
-justify-content: center;
-font-family: "Quicksand", sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
 
 }
 
 nav ul {
-list-style: none;
-display: flex;
-gap: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 nav li {
-display: inline-block;
+    display: inline-block;
 }
 
 nav a {
-padding: 10px 16px;
-border-radius: 12px;
-color: #000000;
-background-color: #ffffff;
-text-decoration: none;
-font-weight: 650;
-transition: all 0.3s ease;
+    padding: 10px 16px;
+    border-radius: 12px;
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 650;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-transform: translateY(-5px) scale(1.05);
-box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-background-color: #000000;
-color: #ffffff;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    background-color: #000000;
+    color: #ffffff;
 }
-
-
-
 /*texto*/
 .estrutura {
 padding-left: 300px;
