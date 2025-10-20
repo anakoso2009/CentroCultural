@@ -24,6 +24,7 @@ body {
 .titulo {
     color: #641737;
     text-align: center;
+    padding-top: 30px;
 }
 
 .th1{
@@ -92,9 +93,24 @@ body {
     padding-top: 10px;
 }
 
+.compositores {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
 .tj {
     color: #641737;
-     display: flex; /* Ativa o Flexbox */
-  flex-direction: row; /* Define os itens em linha (padrão) */
-  gap: 10px;
+    text-align: center;
+}
+
+.mp {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: ;
 }
