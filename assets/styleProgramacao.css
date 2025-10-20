@@ -89,7 +89,7 @@ font-size: 78px;
 .card button {
   position: absolute;
   bottom: -9px;
-  right: 5px;
+  right: -7px;
   background: #4183ff;
   color: white;
   border: none;
@@ -110,9 +110,6 @@ font-size: 78px;
   object-fit: cover;
 }
 
-.conteudo {
-  padding: 16px;
-}
 
 .tipo {
   font-size: 17px;
