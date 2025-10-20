@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Geologica", sans-serif;
+    background-color: #FFCCE9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.historiadamusica { 
+
+   
+
+}
+
+.titulo {
+    color: #641737;
+    text-align: center;
+}
+
+.th1{
+    color: #641737;
+    position: relative;
+    text-align: justify;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 10px;
+
+}
+
+.th2{
+    color: #641737;
+    position: relative;
+    text-align: justify;
+    display: flex;
+    padding-left: 1000px;
+   
+
+}
