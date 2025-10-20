@@ -53,14 +53,21 @@ nav a:hover {
 }
 
 
+
+
+
+
+
+
+
 .topo {
     background: #f2a430;
     color: white;
     text-align: center;
-    background-image: url('');
+    background-image: url('/IMG/bannerAV.png');
     background-size: cover;
     background-position: center;
-    position: relative;
+    
     font-family: "Geologica", sans-serif;
 
 }
@@ -99,52 +106,52 @@ nav a:hover {
 
 
 
+
+
+
+
+
+
 /* Cursos */
 .cursos {
     background-color: #f2a22b;
     padding: 60px 20px;
 }
 
-.secaopintura,
-.secaofoto {
+.secaopintura {
     display: flex;
     flex-direction: row;
     height: 20cm;
 }
 
-.secaopintura img, .secaofoto img {
+.secaopintura img {
     width: 300px;
     border: 30px solid white;
 }
 
-#beijo, #cafe {
-    width: 11cm;
-    height: 12cm;
+#beijo {
+    width: 13cm;
     margin: 2cm;
 }
 
-#girassol, #urban {
-    width: 12cm;
-    height: 8cm;
+#girassol {
+    width: 16cm;
+    height: 10cm;
     margin: 2cm;
 
 }
 
 
-
-.secaopintura p,
-.secaofoto p {
+.secaopintura p {
     width: 100%;
     font-weight: 100;
     font-size: 20px;
     text-align: start;
     padding-left: 2cm;
     padding-right: 3.3cm;
-    background-color: #3f2bf2;
 }
 
-.secaopintura h3,
-.secaofoto h3 {
+.secaopintura h3 {
     font-size: 2cm;
     margin-bottom: 0.5cm;
     text-align: start;
@@ -152,29 +159,170 @@ nav a:hover {
 }
 
 
-#pesquerda,
-#fdireita {
+#pesquerda {
     font-family: "Geologica", sans-serif;
     color: white;
     width: 50%;
     height: 18cm;
-    background-color: aqua;
 
 }
 
-#pesquerda img,
-#fdireita img {
+#pesquerda img {
     height: 100%;
-    margin-top: 3c;
-    background-color: ===;
-    
+    margin-top: 3cm;    
 }
 
 
-
-#pdireita, #fesquerda {
-    background-color: violet;
+#pdireita {
     font-family: "Geologica", sans-serif;
     color: white;
     width: 50%;
 }
+
+
+
+
+
+/*FOTOGRAFIA*/
+
+
+#secaofoto {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+
+}
+
+#fdireita {
+    width: 50%;
+}
+
+#fesquerda {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Geologica", sans-serif;
+}
+
+
+
+#cafe {
+    background-image: url("../IMG/cafe.png");
+    background-repeat: no-repeat;
+    background-size: 87%;
+    min-height: 18cm;
+    width: 13cm;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+}
+
+#urban {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 15cm;
+    background-image: url(../IMG/urban.png);
+    min-height: 10cm;
+    height: auto;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    margin-left: 2cm;
+
+}
+
+
+#secaofoto p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+}
+
+#secaofoto h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+}
+
+
+
+
+/*ESCULTURA*/
+
+
+
+#secaoes {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+
+}
+
+#edireita {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eesquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Geologica", sans-serif;
+}
+
+
+
+#david {
+    background-image: url("../IMG/david.png");
+    background-repeat: no-repeat;
+    background-size: 87%;
+    min-height: 18cm;
+    width: 13cm;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+}
+
+#tres {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 15cm;
+    background-image: url("../IMG/mocas.png");
+    min-height: 9cm;            /* aumentado para mostrar mais da imagem */
+    height: auto;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    margin-top: 2cm;
+    margin-left: 2cm;
+}
+
+
+#secaoes p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+}
+
+#secaoes h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+}
+
+
