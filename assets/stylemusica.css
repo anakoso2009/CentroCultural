@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #FF7CC2;
     overflow-x: hidden;
     font-family: "Geologica", sans-serif;
 
@@ -54,12 +54,36 @@ nav a:hover {
     color: #ffffff;
 }
 
+
+
+
+
+
 .historiadamusica { 
     display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    
+
 
    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .titulo {
     color: #641737;
@@ -67,73 +91,9 @@ nav a:hover {
     padding-top: 30px;
 }
 
-.th1{
-    color: #641737;
-    position: relative;
-    text-align: justify;
-    display: flex;
-    padding-left: 90px;
-    padding-top: 40px;
-
-}
-
-.thi1 {
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
-    padding-left: 50px;
-}
-
-.th2{
-    color: #641737;
-    position: relative;
-    text-align: justify;
-    display: flex;
-    padding-top: 10px;
-    padding-left: 1100px;
-   
-
-}
-
-.thi2 {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    padding-left: 90px;
-    padding-top: 40px;
-}
-
-.th3{
-     color: #641737;
-    position: relative;
-    text-align: justify;
-    display: flex;
-    padding-left: 90px;
-    padding-top: 40px;
-
-}
-
-.th4{
-    color: #641737;
-    position: relative;
-    text-align: justify;
-    display: flex;
-    padding-top: 10px;
-    padding-left: 1100px;
-   
-
-}
-
-.th5{
-    color: #641737;
-    position: relative;
-    text-align: justify;
-    display: flex;
-    padding-left: 90px;
-    padding-top: 40px;
 
 
-}
+
 
 .titulo2 {
     color: #FF0073;
@@ -144,11 +104,7 @@ nav a:hover {
     background-color: #FF7CC2;
 }
 
-.me  {
-    color: beige;
-    text-align: center;
-    padding-top: 10px;
-}
+
 
 .compositores {
     display: flex;
