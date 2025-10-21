@@ -90,12 +90,12 @@ nav a:hover {
 
 .nossa-historia {
 
-    text-align: center;
+    padding-left: 3cm;
 
     h1 {
         font-size: 90px;
         letter-spacing: -6px;
-        background-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
         margin-bottom: -10px;
     }
 }
@@ -140,10 +140,12 @@ footer {
     }
 
     .nossa-historia {
+        
         h1 {
             font-size: 40px;
             padding-left: 30px;
             font-family: "Epilogue", sans-serif;
+            text-align: center;
         }
     }
 
