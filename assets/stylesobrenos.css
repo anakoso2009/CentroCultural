@@ -64,7 +64,7 @@ nav a:hover {
 
 
     p {
-        font-size: 25px;
+        font-size: 35px;
         font-family: "Quicksand", sans-serif;
         color: #ffffff;
         margin-top: -1cm;
@@ -83,15 +83,17 @@ nav a:hover {
 
     background-image: url(/IMG/imgmariamanso/Linhadotempo.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     width: 100%;
-    height: 750px;
+    height: 850px;
 }
 
 .nossa-historia {
+
+    text-align: center;
+
     h1 {
         font-size: 90px;
-        padding-left: 300px;
         letter-spacing: -6px;
         background-color: rgb(255, 255, 255);
         margin-bottom: -10px;
@@ -99,17 +101,20 @@ nav a:hover {
 }
 
 footer {
-  background-color: black;
-  width: 100%;
-  height: 90px;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  color: white;
-  font-size: 20px;
-  padding-top: 9px;
-  padding-bottom: 20px;
-  line-height: 15px;
-  margin-top: -2cm;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 9px;
+    padding-bottom: 20px;
+    line-height: 15px;
+    margin-top: -2cm;
 }
 
 
@@ -150,7 +155,6 @@ footer {
         font-family: "Quicksand", sans-serif;
         color: white;
         font-size: 15px;
-        padding-top: 9px;
     }
 
     .espaço {
@@ -163,15 +167,16 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1080px) {
 
     .estrutura {
         padding-left: 100px;
         padding-right: 80px;
         padding-top: 30px;
-
+        
         h1 {
             font-size: 60px;
+            
         }
 
         p {
@@ -187,6 +192,86 @@ footer {
 
     .imagem {
         width: 100%;
-        height: 400px;
+        height: 600px;
     }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+
+
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        width: 100%;
+        padding: 12px 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        font-family: "Quicksand", sans-serif;
+
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        width: 100%;
+        height: 4cm;
+    }
+
+    nav li {
+        display: flex;
+
+    }
+
+    nav a {
+        padding: 2px 40px;
+        border-radius: 12px;
+        color: #000000;
+        background-color: #ffffff;
+        text-decoration: underline;
+        font-weight: 650;
+        transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+        background-color: #000000;
+        color: #ffffff;
+
+    }
+
+    .nossa-historia {
+        text-align: center;
+    }
+
+    .imagem {
+        width: 100%;
+        height: 500px;
+    }
+
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 90px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
 }

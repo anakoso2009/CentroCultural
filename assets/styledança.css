@@ -2,8 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 * {
-    margin: 0%;
+    box-sizing: border-box;
 }
 
 /*cabeçalho*/
@@ -25,9 +32,7 @@ header {
     justify-content: center;
 }
 
-.nav-bar-1 a {
 
-}
 
 nav ul {
     list-style: none;
@@ -51,29 +56,30 @@ nav a {
 }
 
 .nav-bar-1 a:hover {
-nav a:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-    background-color: #000000;
-    color: #ffffff;
-}
-/*texto*/
-.estrutura {
-    padding-left: 300px;
-    padding-right: 200px;
-    padding-top: 50px;
-
-
-    p {
-        font-size: 20px;
-        font-family: "Quicksand", sans-serif;
+    nav a:hover {
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+        background-color: #000000;
+        color: #ffffff;
     }
 
-    h1 {
-        font-size: 90px;
-        font-family: "Epilogue", sans-serif;
+    /*texto*/
+    .estrutura {
+        padding-left: 300px;
+        padding-right: 200px;
+        padding-top: 50px;
+
+
+        p {
+            font-size: 20px;
+            font-family: "Quicksand", sans-serif;
+        }
+
+        h1 {
+            font-size: 90px;
+            font-family: "Epilogue", sans-serif;
+        }
     }
-}
 }
 
 /*FIM CABEÇALHO*/
@@ -105,7 +111,7 @@ nav a:hover {
 
 /*texto de introdução*/
 #texto1 {
-    padding-top: 270px;
+    padding-top: 2cm;
     padding-bottom: 270px;
 
     h1 {
@@ -113,24 +119,15 @@ nav a:hover {
         padding-left: 100px;
         font-family: "Epilogue", sans-serif;
         color: #6B1E1E;
-        text-align: center;
         letter-spacing: 5px;
         font-weight: bold;
     }
 
-    h2 {
-        font-size: 70px;
-        padding-left: 260px;
-        font-family: "Epilogue", sans-serif;
-        color: #6B1E1E;
-        text-align: left;
-        letter-spacing: 5px;
-        font-weight: bold;
-    }
+
 
     p {
         font-size: 25px;
-        padding-left: 260px;
+        padding-left: 100px;
         font-family: "Quicksand", sans-serif;
     }
 }
@@ -141,21 +138,23 @@ nav a:hover {
 #sapateadoimg {
     background-image: url(/IMG/imgmariamanso/Sapateado.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 45%;
     height: 530px;
+    background-color: #6B1E1E;
 }
 
 
 #divsa {
     width: 55%;
-    padding-top: 90px;
     padding-right: 50px;
 }
 
 #sapateadoesquerda {
     display: flex;
     flex-direction: row;
+    background-color: aqua;
+    height: 530px;
 }
 
 /*FIM SAPATEADO*/
@@ -173,10 +172,11 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 45%;
-    height: 500px;
+    height: 570px;
 }
 
 #balletdireita {
+    height: 570px;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -187,9 +187,9 @@ nav a:hover {
 #contemporaneoimg {
     background-image: url(/IMG/imgmariamanso/contemporaneo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
-    height: 510px;
+    height: 570px;
 }
 
 #divcontemporaneo {
@@ -201,31 +201,32 @@ nav a:hover {
 #contemporaneoesquerda {
     display: flex;
     flex-direction: row;
+    height: 570px;
 }
 
 /*FIM CONTEMPORANEO*/
 
 /*BALLET NEOCLASSICO*/
 #divballetneo {
-    width: 60%;
-    padding-top: 100px;
+    width: 55%;
     padding-left: 50px;
     background-color: #6B1E1E;
-    height: 352px;
+    height: 570px;
 }
 
 #balletneoimg {
     background-image: url(/IMG/imgmariamanso/balletneo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 40%;
-    height: 500px;
+    width: 45%;
+    height: 570px;
 }
 
 
 #balletneodireita {
     display: flex;
     flex-direction: row-reverse;
+    height: 570px;
 }
 
 /*FIM BALLET NEOCLASSICO*/
@@ -234,21 +235,22 @@ nav a:hover {
 #dançasbrasileirasimg {
     background-image: url(/IMG/imgmariamanso/dançaBR.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 45%;
-    height: 530px;
+    height: 570px;
 }
 
 #divdançasbrasileiras {
     width: 55%;
-    padding-top: 150px;
     padding-right: 50px;
     background-color: #ffffff;
+    
 }
 
 #dançasbrasileirasesquerda {
     display: flex;
     flex-direction: row;
+    height: 570px;
 }
 
 
@@ -256,23 +258,24 @@ nav a:hover {
 
 /*JAZZ*/
 #divJazz {
-    width: 60%;
+    width: 55%;
     padding-top: 100px;
     padding-left: 50px;
     background-color: #6B1E1E;
-    height: 400px;
+    height: 570px;
 }
 
 #Jazzimg {
     background-image: url(/IMG/imgmariamanso/Jazz.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 40%;
+    background-size: contain;
+    width: 45%;
 }
 
 #Jazzdireita {
     display: flex;
     flex-direction: row-reverse;
+    height: 570px;
 }
 
 /*FIM JAZZ*/
@@ -286,6 +289,7 @@ nav a:hover {
     padding-right: 70px;
     letter-spacing: 20px;
     font-weight: bold;
+    background-color: blue;
 }
 
 .texto {
@@ -307,7 +311,7 @@ nav a:hover {
 }
 
 #textobr {
-    font-size: 15px;
+    font-size: 25px;
     font-family: "Quicksand", sans-serif;
     text-align: right;
     padding-bottom: 30px;
@@ -560,20 +564,12 @@ footer {
 
         h1 {
             font-size: 30px;
-            padding-left: 20px;
             color: #6B1E1E;
-            text-align: center;
+            text-align: start;
             letter-spacing: 5px;
         }
 
-        h2 {
-            font-size: 30px;
-            padding-left: 20px;
-            text-align: center;
-            color: #6B1E1E;
-            letter-spacing: 5px;
-
-        }
+        
 
         p {
             font-size: 15px;
@@ -613,94 +609,94 @@ footer {
 
     .cards1 {
         display: flex;
-        flex-direction: column;       
+        flex-direction: column;
     }
 
-.subtitulo {
-    font-size: 40px;
-    text-align: center;
-    padding-right: 70px;
-    letter-spacing: 10px;
-}
+    .subtitulo {
+        font-size: 40px;
+        text-align: center;
+        padding-right: 70px;
+        letter-spacing: 10px;
+    }
 
     .texto {
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    text-align: center;
-    padding-bottom: 30px;
+        font-size: 10px;
+        font-family: "Quicksand", sans-serif;
+        text-align: center;
+        padding-bottom: 30px;
 
-}
+    }
 
-#subtitulobr {
-    font-size: 30px;
-    text-align: center;
-    padding-left: 70px;
-    letter-spacing: 10px;
-    padding: 10px;
-}
+    #subtitulobr {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 70px;
+        letter-spacing: 10px;
+        padding: 10px;
+    }
 
-#textobr {
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    text-align:center;
-    padding-bottom: 30px;
+    #textobr {
+        font-size: 10px;
+        font-family: "Quicksand", sans-serif;
+        text-align: center;
+        padding-bottom: 30px;
 
-}
+    }
 
-#subtitulodballet {
-    font-size: 40px;
-    font-family: "Epilogue", sans-serif;
-    color: #ffffff;
-    text-align: center;
-    padding-right: 70px;
-    letter-spacing: 10px;
-    font-weight: bold;
-}
+    #subtitulodballet {
+        font-size: 40px;
+        font-family: "Epilogue", sans-serif;
+        color: #ffffff;
+        text-align: center;
+        padding-right: 70px;
+        letter-spacing: 10px;
+        font-weight: bold;
+    }
 
-#textodballet {
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    text-align:center;
-    padding-bottom: 30px;
-    color: #ffffff;
-}
+    #textodballet {
+        font-size: 10px;
+        font-family: "Quicksand", sans-serif;
+        text-align: center;
+        padding-bottom: 30px;
+        color: #ffffff;
+    }
 
-#subtitulodneo {
-    font-size: 30px;
-    font-family: "Epilogue", sans-serif;
-    color: #ffffff;
-    text-align: center;
-    padding-right: 70px;
-    letter-spacing: 20px;
-    font-weight: bold;
-}
+    #subtitulodneo {
+        font-size: 30px;
+        font-family: "Epilogue", sans-serif;
+        color: #ffffff;
+        text-align: center;
+        padding-right: 70px;
+        letter-spacing: 20px;
+        font-weight: bold;
+    }
 
-#textodneo {
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    text-align: center;
-    padding-bottom: 30px;
-    color: #ffffff;
-}
+    #textodneo {
+        font-size: 10px;
+        font-family: "Quicksand", sans-serif;
+        text-align: center;
+        padding-bottom: 30px;
+        color: #ffffff;
+    }
 
-#subtitulodjazz {
-    font-size: 30px;
-    font-family: "Epilogue", sans-serif;
-    color: #ffffff;
-    text-align: center;
-    padding-right: 70px;
-    letter-spacing: 20px;
-    font-weight: bold;
-}
+    #subtitulodjazz {
+        font-size: 30px;
+        font-family: "Epilogue", sans-serif;
+        color: #ffffff;
+        text-align: center;
+        padding-right: 70px;
+        letter-spacing: 20px;
+        font-weight: bold;
+    }
 
-#textodjazz {
-    font-size: 10px;
-    font-family: "Quicksand", sans-serif;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-left: 10px;
- 
-}
+    #textodjazz {
+        font-size: 10px;
+        font-family: "Quicksand", sans-serif;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 10px;
 
-/*FIM titulos e sub*/
+    }
+
+    /*FIM titulos e sub*/
 }

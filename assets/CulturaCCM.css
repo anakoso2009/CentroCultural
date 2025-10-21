@@ -55,14 +55,6 @@ nav a:hover {
     color: #ffffff;
 }
 
-#akdiv1 {
-    display: flex;
-    flex-direction: row;
-    background-color: #000000;
-    height: 9.5cm;
-
-}
-
 
 .intro {
     background-color: rgb(250, 227, 196);
@@ -199,23 +191,165 @@ nav a:hover {
 
 
 
-@media (max-width: 900px) {
-    .card {
-        height: 280px;
-        padding: 30px;
-    }
+@media (max-width: 1080px) {
 
-    .card h2 {
-        font-size: 1.8rem;
-    }
 
     .intro {
-        height: auto;
-        padding: 40px 20px;
+        height: 620px;
+        background-position: top;
+        background-size: cover;
+        display: flex;
+        padding: 20px;
+        opacity: 0.9;
+
     }
 
     .intro-text h1 {
-        font-size: 1.6rem;
+        color: #ffffff;
+        font-size: 2.1cm;
+        font-weight: 800;
+        text-align: left;
+        line-height: 1.3;
+        opacity: 110%;
+        text-shadow: 7px 7px 7px rgb(0, 0, 0);
+    }
+
+    .Titulo {
         text-align: center;
+        font-size: 45px;
+        letter-spacing: 5px;
+        padding: 0.5cm;
+    }
+
+    .danca,
+    .artesv,
+    .musica,
+    .teatro {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .danca-link,
+    .artesv-link,
+    .musica-link,
+    .teatro-link {
+        text-decoration: none;
+    }
+
+    .danca-title,
+    .teatro-title,
+    .musica-title,
+    .artesv-title {
+        display: block;
+        font-size: 2.2cm;
+        font-weight: bold;
+        letter-spacing: 3px;
+        transition: 0.3s;
+        text-align: center;
+        padding: 0cm;
+        margin: 0cm;
+        line-height: 70px;
+        padding-bottom: 20px;
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
     }
 }
+
+    @media (max-width: 700px) {
+
+
+        .intro {
+            height: 740px;
+            background-position: top;
+            background-size: cover;
+            display: flex;
+            padding: 20px;
+            opacity: 0.9;
+
+        }
+
+        .intro-text h1 {
+            color: #ffffff;
+            font-size: 1.8cm;
+            font-weight: 800;
+            text-align: left;
+            line-height: 1.3;
+            opacity: 110%;
+            text-shadow: 7px 7px 7px rgb(0, 0, 0);
+        }
+
+
+
+        .danca-title,
+        .teatro-title,
+        .musica-title,
+        .artesv-title {
+            display: block;
+            font-size: 1.7cm;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 0cm;
+            margin: 0cm;
+            line-height: 70px;
+            padding-bottom: 20px;
+        }
+
+        nav li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            width: 100%;
+            padding: 12px 20px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            font-family: "Quicksand", sans-serif;
+
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            width: 100%;
+            height: 4cm;
+        }
+
+        nav li {
+            display:flex;
+            
+        }
+
+        nav a {
+            padding: 2px 40px;
+            border-radius: 12px;
+            color: #000000;
+            background-color: #ffffff;
+            text-decoration: underline;
+            font-weight: 650;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+
+
+    }
