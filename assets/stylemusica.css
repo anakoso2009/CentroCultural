@@ -165,11 +165,40 @@ nav a:hover {
 }
 /*5*/
 /*PRIMEIRA PARTE CODIGO*/
-
-#museru {
+/*SEGUNDA PARTE CODIGO*/
+#musieru {
     color: #FF0073;
-    
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: "Epilogue", sans-serif;
+    padding-top: 100px;
+    font-weight: bold;
 }
+
+#txt3 {
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Epilogue", sans-serif;
+        text-align: center;
+        padding-top: 30px;
+}
+
+#img6 {
+    background-image: url(/IMG/imganabe/orq.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 450px; 
+}
+
+#fundo {
+    background-color: #FF7CC2;
+    width: 100%;
+    height: 550px;
+
+}
+/*SEGUNDA PARTE CODIGO*/
 
 
 
