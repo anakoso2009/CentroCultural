@@ -1,22 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
-
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #FF7CC2;
+    margin: 0%;
     overflow-x: hidden;
     font-family: "Geologica", sans-serif;
-
-
+    background-color: #FFCCE9;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0%;
 }
 
+/*CABEÇALHO*/
 header {
     width: 100%;
     padding: 12px 20px;
@@ -54,94 +52,63 @@ nav a:hover {
     color: #ffffff;
 }
 
+/*CABEÇALHO*/
 
+#cabmusi {
+    background-color: #FF4388;
+    height: 250px;
+    width: 100%;
+    padding-top: 1px;
 
-
-
-
-.historiadamusica { 
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    
-
-
-   
-
+    h1{
+        font-family: "Epilogue", sans-serif;
+        text-align: left;
+        padding-top: 5px;
+        padding: 50px;
+        font-size: 150px;
+        color: #ffffff;
+        font-weight: bold;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.titulo {
-    color: #641737;
-    text-align: center;
+#hist {
     padding-top: 30px;
-}
-
-
-
-
-
-.titulo2 {
-    color: #FF0073;
-    text-align: center;
-}
-
-.musicaerudita {
-    background-color: #FF7CC2;
-}
-
-
-
-.compositores {
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-    align-items: center;
-    justify-content: center;
-    padding-left: 100px;
-}
-
-.tj {
     color: #641737;
+    font-size: 35px;
     text-align: center;
+    letter-spacing: 15px;
+    font-family: "Epilogue", sans-serif;
 }
 
-.mp {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-    align-items: center;
-    justify-content: center;
-    padding-left: 90px;
-    padding-top: 60px;
-    
-   
+.txt1 {
+    padding: 80px;
+    color: #641737;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 100px;
+    font-weight: bold;
 }
 
-.mp2 {
-    display: flex;
-    flex-direction: row;
-    gap: 300px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 60px;
-    padding-left: 90px;
-   
+#img1 {
+    background-image: url(/IMG/imganabe/hm1.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    padding: 150px;
 }
+
+#historiadamusica1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
 
 /*Footer*/
 footer {
