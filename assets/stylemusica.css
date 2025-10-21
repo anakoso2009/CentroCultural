@@ -199,7 +199,118 @@ nav a:hover {
 
 }
 /*SEGUNDA PARTE CODIGO*/
+/*TERCEIRA PARTE CODIGO*/
+#compbr {
+    color: #FF0073;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Epilogue", sans-serif;
+    padding-top: 100px;
+    font-weight: bold;
+}
 
+.txt4 {
+   h1 {
+    color: #641737;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+h2 {
+    color: #641737;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}  
+}
+
+#Tom {
+    width: 300px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+#Carlos {
+    width: 300px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+#Helena {
+    width: 300px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+
+#tomjobim {
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain; 
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px; 
+}
+
+#CarlosGomes {
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain; 
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px; 
+}
+
+#MariaHelenaRosas {
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain; 
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px; 
+}
+
+#tomjobim {
+    background-image: url(/IMG/imganabe/Tomjobim.png);
+}
+
+#CarlosGomes {
+    background-image: url(/IMG/imganabe/Carlos\ Gomes.png);
+}
+
+#MariaHelenaRosas {
+    background-image: url(/IMG/imganabe/Maria\ Helena\ Rosas.png);
+}
+
+#todosbr {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    gap: 10px;
+    background-color: transparent;
+    padding: 50px 20px; 
+    height: auto; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+/*TERCEIRA PARTE CODIGO*/
 
 
 
@@ -214,6 +325,4 @@ footer {
     font-size: 20px;
     padding-top: 9px;
 }
-
-
 /*FIM FOOTER*/
