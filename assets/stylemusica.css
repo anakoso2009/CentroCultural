@@ -1,22 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
-
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #FF7CC2;
+    margin: 0%;
     overflow-x: hidden;
     font-family: "Geologica", sans-serif;
-
-
+    background-color: #FFCCE9;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0%;
 }
 
+/*CABEÇALHO*/
 header {
     width: 100%;
     padding: 12px 20px;
@@ -54,94 +52,267 @@ nav a:hover {
     color: #ffffff;
 }
 
+/*CABEÇALHO*/
 
+#cabmusi {
+    background-color: #FF4388;
+    height: 250px;
+    width: 100%;
+    padding-top: 1px;
 
+    h1{
+        font-family: "Epilogue", sans-serif;
+        text-align: left;
+        padding-top: 5px;
+        padding: 50px;
+        font-size: 150px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+}
 
+/*Inicio*/
+#hist {
+    padding-top: 30px;
+    color: #641737;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: "Epilogue", sans-serif;
+}
+/*Inicio*/
 
+/*PRIMEIRA PARTE CODIGO*/
+/*1*/
+.txt1 {
+    padding: 80px;
+    color: #641737;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 100px;
+    font-weight: bold;
+}
 
-.historiadamusica { 
+#img1 {
+    background-image: url(/IMG/imganabe/hm1.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    padding: 150px;
+}
+
+#historiadamusica1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+/*1*/
+/*2*/
+.txt2 {
+    padding: 80px;
+    color: #641737;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#img2 {
+    background-image: url(/IMG/imganabe/th2.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    padding: 150px;
+    margin: 100px;
+}
+
+#historiadamusica2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+/*2*/
+/*3*/
+#img3 {
+    background-image: url(/IMG/imganabe/th3.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 650px;
+    padding-right: 550px;
+    padding-bottom: 30px;
+}
+/*3*/
+/*4*/
+#img4 {
+    background-image: url(/IMG/imganabe/th4.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    padding: 150px;
+    margin: 100px;  
+}
+/*4*/
+/*5*/
+#img5 {
+    background-image: url(/IMG/imganabe/th5.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 450px;
+    padding-right: 550px;
+    padding-bottom: 30px;  
+}
+/*5*/
+/*PRIMEIRA PARTE CODIGO*/
+/*SEGUNDA PARTE CODIGO*/
+#musieru {
+    color: #FF0073;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-family: "Epilogue", sans-serif;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+#txt3 {
+        color: #ffffff;
+        font-weight: bold;
+        font-family: "Epilogue", sans-serif;
+        text-align: center;
+        padding-top: 30px;
+}
+
+#img6 {
+    background-image: url(/IMG/imganabe/orq.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 450px; 
+}
+
+#fundo {
+    background-color: #FF7CC2;
+    width: 100%;
+    height: 550px;
+
+}
+/*SEGUNDA PARTE CODIGO*/
+/*TERCEIRA PARTE CODIGO*/
+#compbr {
+    color: #FF0073;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Epilogue", sans-serif;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.txt4 {
+   h1 {
+    color: #641737;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+h2 {
+    color: #641737;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}  
+}
+
+#Tom {
+    width: 300px; 
+    height: auto; 
     display: flex;
     flex-direction: column;
-    background-color: aqua;
-    
-
-
-   
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.titulo {
-    color: #641737;
-    text-align: center;
-    padding-top: 30px;
-}
-
-
-
-
-
-.titulo2 {
-    color: #FF0073;
-    text-align: center;
-}
-
-.musicaerudita {
-    background-color: #FF7CC2;
-}
-
-
-
-.compositores {
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
     align-items: center;
-    justify-content: center;
-    padding-left: 100px;
+    justify-content: flex-start;
+    padding: 20px 0;
 }
 
-.tj {
-    color: #641737;
-    text-align: center;
-}
-
-.mp {
+#Carlos {
+    width: 300px; 
+    height: auto; 
     display: flex;
-    flex-direction: row;
-    gap: 300px;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-left: 90px;
-    padding-top: 60px;
-    
-   
+    justify-content: flex-start;
+    padding: 20px 0;
 }
 
-.mp2 {
+#Helena {
+    width: 300px; 
+    height: auto; 
     display: flex;
-    flex-direction: row;
-    gap: 300px;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top: 60px;
-    padding-left: 90px;
-   
+    justify-content: flex-start;
+    padding: 20px 0;
 }
+
+
+#tomjobim {
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain; 
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px; 
+}
+
+#CarlosGomes {
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain; 
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px; 
+}
+
+#MariaHelenaRosas {
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: contain; 
+    width: 100%;
+    height: 300px; 
+    margin-bottom: 10px; 
+}
+
+#tomjobim {
+    background-image: url(/IMG/imganabe/Tomjobim.png);
+}
+
+#CarlosGomes {
+    background-image: url(/IMG/imganabe/Carlos\ Gomes.png);
+}
+
+#MariaHelenaRosas {
+    background-image: url(/IMG/imganabe/Maria\ Helena\ Rosas.png);
+}
+
+#todosbr {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    gap: 10px;
+    background-color: transparent;
+    padding: 50px 20px; 
+    height: auto; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+/*TERCEIRA PARTE CODIGO*/
+
+
 
 /*Footer*/
 footer {
@@ -154,6 +325,84 @@ footer {
     font-size: 20px;
     padding-top: 9px;
 }
-
-
 /*FIM FOOTER*/
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 768px) {
+ nav li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand", sans-serif;
+
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        width: 100%;
+        height: 4cm;
+        
+    }
+
+    nav li {
+        display: flex;
+
+    }
+
+    nav a {
+        padding: 2px 40px;
+        border-radius: 12px;
+        color: #000000;
+        background-color: #ffffff;
+        text-decoration: underline;
+        font-weight: 650;
+        transition: all 0.3s ease;
+    }
+
+
+    #historiadamusica1,
+    #historiadamusica2 {
+        flex-direction: column;
+    }
+
+    .txt1,
+    .txt2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+#todosbr {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#compbr {
+    font-size: 28px;
+    padding-top: 50px;
+}
+
+#cabmusi h1 {
+    font-size: 100px;
+    padding: 20px;
+
+}
+#img6 {
+    height: 450px;
+}
+}
