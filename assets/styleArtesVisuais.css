@@ -207,7 +207,7 @@ header {
 }
 
 #girassol {
-    width: 16cm;
+    width: 13cm;
     height: 10cm;
     margin: 2cm;
 
@@ -425,3 +425,87 @@ footer {
     color: white;
     font-size: 20px;
 }
+
+
+/* Para tablets e celulares (telas menores que 768px) */
+@media (max-width: 768px) {
+
+    /* Navegação vira coluna */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .topo {
+        text-align: center; /* Centraliza texto do banner */
+        min-height: 60vh;
+    }
+    
+    #t1, #t2, .topo p {
+        margin-left: 0; /* Remove margem esquerda */
+        text-align: center;
+    }
+    
+    .topo p {
+        max-width: 90%; /* Permite que o texto ocupe mais a tela */
+        margin: 1.5rem auto; /* Centraliza o parágrafo */
+    }
+
+    /* Seções de Cursos viram coluna */
+    .secaopintura,
+    #secaoes {
+        flex-direction: column;
+    }
+
+    /* Inverte a ordem da seção fotografia para manter padrão (texto, depois imagem) */
+    #secaofoto {
+        flex-direction: column-reverse;
+    }
+
+    /* Todas as colunas das seções ocupam 100% da largura */
+    #pesquerda,
+    #pdireita,
+    #fesquerda,
+    #fdireita,
+    #eesquerda,
+    #edireita {
+        width: 100%;
+    }
+
+    /* Centraliza textos das seções */
+    .secaopintura h3,
+    .secaopintura p,
+    #secaofoto h3,
+    #secaofoto p,
+    #secaoes h3,
+    #secaoes p {
+        text-align: center;
+        padding: 0 1rem; /* Ajusta padding lateral */
+    }
+
+    /* Garante que as imagens de fundo (divs) se centralizem */
+    #cafe, #urban, #david, #tres {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Ajuste fino para celulares bem pequenos */
+@media (max-width: 480px) {
+    #t1 {
+        letter-spacing: 5px;
+    }
+    #t2 {
+        letter-spacing: 5px;
+        margin-top: -0.5rem;
+    }
+    #conheca {
+        letter-spacing: 3px;
+    }
+}   

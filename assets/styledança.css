@@ -4,11 +4,14 @@
 
 
 
+body,
+html {
+    overflow-x: hidden;
 
+}
 
 * {
     box-sizing: border-box;
-    overflow-x: hidden;
     margin: 0%;
 }
 
@@ -66,10 +69,45 @@ nav a:hover {
     h1 {
         font-size: 90px;
         font-family: "Epilogue", sans-serif;
-    }
+    } 
 }
 
 /*FIM CABEÇALHO*/
+
+
+
+#imgdivballet,
+#imgdivballetneo,
+#imgdivjazz,
+#imgdivsapateado,
+#imgdivcontemp,
+#imgdivdanças {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+#imgdivballet,
+#imgdivballetneo,
+#imgdivjazz {
+
+    background-color: #6B1E1E;
+
+}
+
+
+
+
+
+
+
+
+
 
 /*imagem dança*/
 .imagem-danca {
@@ -134,43 +172,49 @@ nav a:hover {
 #sapateadoimg {
     background-image: url(/IMG/imgmariamanso/Sapateado.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 45%;
-    height: 530px;
+    background-size: contain;
+    width: 90%;
+    height: 90%;
+
 }
 
 #divsa {
-    width: 55%;
-    padding-top: 90px;
-    padding-right: 50px;
+    width: 70%;
+    padding-top: 20px;
+
 }
 
 #sapateadoesquerda {
     display: flex;
     flex-direction: row;
+    height: 500px;
 }
 
 /*FIM SAPATEADO*/
 
 /*BALLET CLASSICO*/
 #divballet {
-    width: 55%;
-    padding-top: 100px;
-    padding-left: 50px;
+    width: 70%;
+    padding-top: 20px;
     background-color: #6B1E1E;
+    height: 500px;
+
+
+
 }
 
 #balletimg {
     background-image: url(/IMG/imgmariamanso/balletclassico.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 45%;
-    height: 500px;
+    background-size: contain;
+    width: 90%;
+    height: 90%;
 }
 
 #balletdireita {
     display: flex;
     flex-direction: row-reverse;
+    height: 500px;
 }
 
 /*FIM BALLET CLASSICO*/
@@ -179,45 +223,47 @@ nav a:hover {
 #contemporaneoimg {
     background-image: url(/IMG/imgmariamanso/contemporaneo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
-    height: 510px;
+    height: 100%;
 }
 
 #divcontemporaneo {
-    width: 55%;
-    padding-top: 100px;
-    padding-right: 50px;
+    width: 70%;
+    padding-top: 20px;
+    height: 500px;
 }
 
 #contemporaneoesquerda {
     display: flex;
     flex-direction: row;
+    height: 500px;
 }
 
 /*FIM CONTEMPORANEO*/
 
 /*BALLET NEOCLASSICO*/
 #divballetneo {
-    width: 60%;
-    padding-top: 100px;
-    padding-left: 50px;
+    width: 70%;
+    padding-top: 20px;
     background-color: #6B1E1E;
-    height: 352px;
+    height: 500px;
 }
 
 #balletneoimg {
     background-image: url(/IMG/imgmariamanso/balletneo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 40%;
-    height: 500px;
+    width: 90%;
+    height: 100%;
+    background-color: #6B1E1E;
 }
 
 
 #balletneodireita {
     display: flex;
     flex-direction: row-reverse;
+    height: 500px;
 }
 
 /*FIM BALLET NEOCLASSICO*/
@@ -226,44 +272,46 @@ nav a:hover {
 #dançasbrasileirasimg {
     background-image: url(/IMG/imgmariamanso/dançaBR.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 45%;
-    height: 530px;
+    background-size: contain;
+    width: 90%;
+    height: 90%;
 }
 
 #divdançasbrasileiras {
-    width: 55%;
-    padding-top: 150px;
-    padding-right: 50px;
+    width: 70%;
+    padding-top: 20px;
     background-color: #ffffff;
+    height: 500px;
 }
 
 #dançasbrasileirasesquerda {
     display: flex;
     flex-direction: row;
+    height: 500px;
 }
 
 /*FIM DANÇAS POPULARES BRASILEIRAS*/
 
 /*JAZZ*/
 #divJazz {
-    width: 60%;
-    padding-top: 100px;
-    padding-left: 50px;
+    width: 70%;
+    padding-top: 20px;
     background-color: #6B1E1E;
-    height: 400px;
+    height: 500px;
 }
 
 #Jazzimg {
     background-image: url(/IMG/imgmariamanso/Jazz.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 40%;
+    background-size: contain;
+    width: 90%;
+    height: 90%;
 }
 
 #Jazzdireita {
     display: flex;
     flex-direction: row-reverse;
+    height: 500px;
 }
 
 /*FIM JAZZ*/
@@ -280,10 +328,11 @@ nav a:hover {
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Quicksand", sans-serif;
     text-align: right;
     padding-bottom: 30px;
+    margin: 20px;
 
 }
 
@@ -297,13 +346,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-#textobr {
-    font-size: 15px;
-    font-family: "Quicksand", sans-serif;
-    text-align: right;
-    padding-bottom: 30px;
-
-}
 
 #subtitulodballet {
     font-size: 70px;
@@ -313,14 +355,18 @@ nav a:hover {
     padding-right: 70px;
     letter-spacing: 10px;
     font-weight: bold;
+    margin-left: 30px;
 }
 
-#textodballet {
-    font-size: 20px;
+.texto2 {
+    font-size: 24px;
     font-family: "Quicksand", sans-serif;
     text-align: left;
     padding-bottom: 30px;
+    margin: 20px;
     color: #ffffff;
+
+
 }
 
 #subtitulodneo {
@@ -331,33 +377,23 @@ nav a:hover {
     padding-right: 70px;
     letter-spacing: 20px;
     font-weight: bold;
+    margin-left: 30px;
 }
 
-#textodneo {
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
-    text-align: left;
-    padding-bottom: 30px;
-    color: #ffffff;
-}
+
 
 #subtitulodjazz {
     font-size: 66px;
     font-family: "Epilogue", sans-serif;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     padding-right: 70px;
     letter-spacing: 20px;
     font-weight: bold;
+    margin-left: 30px;
 }
 
-#textodjazz {
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
-    text-align: left;
-    padding-bottom: 30px;
-    color: #ffffff;
-}
+
 
 /*FIM titulos e sub*/
 
@@ -527,6 +563,29 @@ footer {
 
 /*FIM ITENS EXTRAS*/
 
+@media (max-width: 1200px) {
+    .texto2 {
+        font-size: 16px;
+        font-family: "Quicksand", sans-serif;
+        text-align: left;
+        padding-bottom: 30px;
+        margin: 20px;
+        color: #ffffff;
+    }
+
+    .texto {
+        font-size: 16px;
+        font-family: "Quicksand", sans-serif;
+        text-align: right;
+        padding-bottom: 30px;
+        margin: 20px;
+    }
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
     nav li {
         display: flex;
@@ -554,7 +613,7 @@ footer {
         gap: 4px;
         width: 100%;
         height: 4cm;
-        
+
     }
 
     nav li {
@@ -572,7 +631,7 @@ footer {
         transition: all 0.3s ease;
     }
 
-   
+
 
     .imagem-danca {
         width: 100%;
@@ -610,50 +669,25 @@ footer {
         }
     }
 
-    #sapateadoesquerda {
-        display: flex;
-        flex-direction: column;
-    }
 
-    
-    #contemporaneoesquerda {
-        display: flex;
-        flex-direction: column;
-    }
 
-    #balletneodireita {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #dançasbrasileirasesquerda {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #Jazzdireita {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .cards1 {
         display: flex;
         flex-direction: column;
     }
-    
+
     .subtitulo {
         font-size: 30px;
         text-align: center;
         padding-right: 10px;
         letter-spacing: 5px;
     }
-    
+
     .texto {
-        font-size: 10px;
         padding-bottom: 30px;
-        
+
     }
-    
+
     #subtitulobr {
         font-size: 30px;
         text-align: center;
@@ -661,15 +695,15 @@ footer {
         letter-spacing: 10px;
         padding: 10px;
     }
-    
+
     #textobr {
         font-size: 10px;
         font-family: "Quicksand", sans-serif;
         text-align: center;
         padding-bottom: 30px;
-        
+
     }
-    
+
     #subtitulodballet {
         font-size: 25px;
         text-align: center;
@@ -677,35 +711,8 @@ footer {
         letter-spacing: 5px;
         font-weight: bold;
     }
-    
-    #textodballet {
-        font-size: 10px;
-        text-align: center;
-        padding-bottom: 5px;
-        padding: 50px;
-        padding-top: 0%;
-    }
-    
-    #balletimg {
-        width: 100%;
-        height: 250px;
-        background-position: center;
-        background-size: contain;
-        background-color: #6B1E1E;
 
-    }
-    
-    #balletdireita {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
 
-    #divballet {
-        width: 100%;
-        height: 200px;
-        padding: 0%;
-    }
 
     #subtitulodneo {
         font-size: 30px;
@@ -744,8 +751,85 @@ footer {
 
     }
 
-    #sapateadoimg {
+
+
+
+
+    #contemporaneoimg,
+    #sapateadoimg,
+    #dançasbrasileirasimg,
+    #balletneoimg,
+    #jazzimg {
+        background-size: contain;
         width: 100%;
-        height: 310px;
+        height: 2cm;
+        background-position: top center;
+        background-color: aqua;
+
+
     }
+
+    #divcontemporaneo,
+    #divballet,
+    #divdançasbrasileiras,
+    #divjazz,
+    #divballetneo,
+    #divsa {
+        width: 100%;
+        padding-top: -100px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #contemporaneoesquerda,
+    #balletdireita,
+    #sapateadoesquerda,
+    #dançasbrasileirasesquerda,
+    #Jazzdireita {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .texto {
+        font-size: 90%;
+        text-align: center;
+    }
+
+
+    /*SAPATEADO*/
+
+    #sapateadoimg {
+        background-size: contain;
+        width: 100%;
+        height: 150px;
+    }
+
+    #divsa {
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+
+    #sapateadoesquerda {
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
 }
