@@ -71,6 +71,7 @@ nav a:hover {
     }
 }
 
+/*Inicio*/
 #hist {
     padding-top: 30px;
     color: #641737;
@@ -79,7 +80,10 @@ nav a:hover {
     letter-spacing: 15px;
     font-family: "Epilogue", sans-serif;
 }
+/*Inicio*/
 
+/*PRIMEIRA PARTE CODIGO*/
+/*1*/
 .txt1 {
     padding: 80px;
     color: #641737;
@@ -103,9 +107,69 @@ nav a:hover {
     align-items: center;
     flex-direction: row-reverse;
 }
+/*1*/
+/*2*/
+.txt2 {
+    padding: 80px;
+    color: #641737;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+}
 
+#img2 {
+    background-image: url(/IMG/imganabe/th2.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    padding: 150px;
+    margin: 100px;
+}
 
+#historiadamusica2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+/*2*/
+/*3*/
+#img3 {
+    background-image: url(/IMG/imganabe/th3.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 650px;
+    padding-right: 550px;
+    padding-bottom: 30px;
+}
+/*3*/
+/*4*/
+#img4 {
+    background-image: url(/IMG/imganabe/th4.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 250px;
+    padding: 150px;
+    margin: 100px;  
+}
+/*4*/
+/*5*/
+#img5 {
+    background-image: url(/IMG/imganabe/th5.PNG);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 450px;
+    padding-right: 550px;
+    padding-bottom: 30px;  
+}
+/*5*/
+/*PRIMEIRA PARTE CODIGO*/
 
+#museru {
+    color: #FF0073;
+    
+}
 
 
 
