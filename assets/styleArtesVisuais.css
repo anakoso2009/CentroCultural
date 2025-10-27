@@ -190,67 +190,101 @@ header {
 
 /* PINTURA */
 
-.secaopintura {
-    display: flex;
-    flex-direction: row;
-    height: 20cm;
+
+
+
+#pesquerda p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: start;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1cm;
 }
 
-.secaopintura img {
-    width: 300px;
-    border: 40px solid white;
+#pesquerda h3 {
+    font-size: 2cm;
+    margin-bottom: 1cm;
+    text-align: start;
+
 }
+
+
+#secaopintura {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+
+}
+
+#pdireita {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pesquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family: "Geologica", sans-serif;
+    color: white;
+}
+
+
 
 #beijo {
-    width: 13cm;
-    margin: 2cm;
+    margin-top: 2cm;
+    background-image: url("https://i.pinimg.com/736x/96/6f/69/966f69edf7b143a416bf606d7fbee515.jpg");
+    background-repeat: no-repeat;
+    background-size: 87%;
+    min-height: 18cm;
+    width: 11cm;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    margin-top: 70px;
 }
 
 #girassol {
+    background-size: 80%;
+    background-repeat: no-repeat;
     width: 13cm;
-    height: 10cm;
-    margin: 2cm;
-
+    background-image: url("../IMG/girassoi.png");
+    min-height: 9cm;
+    height: auto;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
 
 }
 
 
-.secaopintura p {
+#secaoes p {
     width: 100%;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 25px;
     text-align: start;
     padding-left: 2cm;
     padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
 }
 
-.secaopintura h3 {
+#secaoes h3 {
+    color: rgb(255, 255, 255);
     font-size: 2cm;
     margin-bottom: 0.5cm;
     text-align: start;
     padding-left: 2cm;
-}
-
-
-#pesquerda {
-    font-family: "Geologica", sans-serif;
-    color: white;
-    width: 50%;
-    height: 18cm;
+    letter-spacing: -5px;
 
 }
 
-#pesquerda img {
-    height: 100%;
-    margin-top: 3cm;
-}
-
-
-#pdireita {
-    font-family: "Geologica", sans-serif;
-    color: white;
-    width: 50%;
-}
 
 
 
@@ -268,6 +302,10 @@ header {
 
 #fdireita {
     width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #fesquerda {
@@ -286,7 +324,7 @@ header {
     background-repeat: no-repeat;
     background-size: 87%;
     min-height: 18cm;
-    width: 13cm;
+    width: 11cm;
     display: block;
     background-color: #ffffff;
     background-position: center;
@@ -296,26 +334,26 @@ header {
     margin-top: 1cm;
     background-size: 80%;
     background-repeat: no-repeat;
-    width: 15cm;
+    width: 13cm;
     background-image: url(../IMG/urban.png);
     min-height: 10cm;
     height: auto;
     display: block;
     background-color: #ffffff;
     background-position: center;
-    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-left: 2cm;
 
 }
 
 
 #secaofoto p {
-    width: 100%;
     font-weight: 100;
     font-size: 25px;
     text-align: start;
-    padding-left: 2cm;
-    padding-right: 3.3cm;
+    margin-right: 2cm;
     color: rgb(255, 255, 255);
+    width: 13cm;
 }
 
 #secaofoto h3 {
@@ -323,7 +361,7 @@ header {
     font-size: 2cm;
     margin-bottom: 0.5cm;
     text-align: start;
-    padding-left: 2cm;
+    padding-right: 4.7cm;
     letter-spacing: -5px;
 }
 
@@ -372,10 +410,9 @@ header {
 #tres {
     background-size: 80%;
     background-repeat: no-repeat;
-    width: 15cm;
+    width: 13cm;
     background-image: url("../IMG/mocas.png");
-    min-height: 9cm;
-    /* aumentado para mostrar mais da imagem */
+    min-height: 7cm;
     height: auto;
     display: block;
     background-color: #ffffff;
@@ -427,10 +464,273 @@ footer {
 }
 
 
-/* Para tablets e celulares (telas menores que 768px) */
-@media (max-width: 768px) {
+/*TABLETS*/
+@media (max-width: 1200px) {
 
-    /* Navegação vira coluna */
+    #conheca {
+        font-size: 2.2cm;
+        margin-top: 0.5cm;
+        letter-spacing: 15px;
+    }
+
+
+/** PINTURA */
+
+#pesquerda p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: start;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1cm;
+}
+
+#pesquerda h3 {
+    font-size: 2cm;
+    margin-bottom: 1cm;
+    text-align: start;
+
+}
+
+
+#secaopintura {
+    display: flex;
+    width: 100%;
+    margin-top: 2cm;
+
+}
+
+#pdireita {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pesquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family: "Geologica", sans-serif;
+    color: white;
+}
+
+
+
+#beijo {
+    margin-top: 2cm;
+    background-image: url("https://i.pinimg.com/736x/96/6f/69/966f69edf7b143a416bf606d7fbee515.jpg");
+    background-repeat: no-repeat;
+    background-size: 87%;
+    min-height: 18cm;
+    width: 11cm;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+    margin-top: 70px;
+}
+
+#girassol {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 13cm;
+    background-image: url("../IMG/girassoi.png");
+    min-height: 9cm;
+    height: auto;
+    display: block;
+    background-color: #ffffff;
+    background-position: center;
+
+}
+
+
+#secaoes p {
+    width: 100%;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 2cm;
+    padding-right: 3.3cm;
+    color: rgb(255, 255, 255);
+}
+
+#secaoes h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    margin-bottom: 0.5cm;
+    text-align: start;
+    padding-left: 2cm;
+    letter-spacing: -5px;
+
+}
+
+
+
+
+
+
+
+    /*FOTOGRAFIA*/
+
+
+    #secaofoto {
+        display: flex;
+        width: 100%;
+        margin-top: 2cm;
+
+    }
+
+    #fdireita {
+        width: 50%;
+    }
+
+    #fesquerda {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Geologica", sans-serif;
+    }
+
+
+
+    #cafe {
+        margin-top: 3cm;
+        background-image: url("../IMG/cafe.png");
+        background-repeat: no-repeat;
+        background-size: 87%;
+        min-height: 18cm;
+        width: 13cm;
+        display: block;
+        background-color: #ffffff;
+        background-position: center;
+    }
+
+    #urban {
+        margin-top: 1cm;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        width: 15cm;
+        background-image: url(../IMG/urban.png);
+        min-height: 10cm;
+        height: auto;
+        display: block;
+        background-color: #ffffff;
+        background-position: center;
+        margin-left: 2cm;
+
+    }
+
+
+    #secaofoto p {
+        width: 100%;
+        font-weight: 100;
+        font-size: 25px;
+        text-align: start;
+        padding-left: 2cm;
+        padding-right: 3.3cm;
+        color: rgb(255, 255, 255);
+    }
+
+    #secaofoto h3 {
+        color: rgb(255, 255, 255);
+        font-size: 2cm;
+        margin-bottom: 0.5cm;
+        text-align: start;
+        padding-left: 2cm;
+        letter-spacing: -5px;
+    }
+
+
+
+
+    /*ESCULTURA*/
+
+
+
+    #secaoes {
+        display: flex;
+        width: 100%;
+        margin-top: 2cm;
+
+    }
+
+    #edireita {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #eesquerda {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        font-family: "Geologica", sans-serif;
+    }
+
+
+
+    #david {
+        margin-top: 2cm;
+        background-image: url("../IMG/david.png");
+        background-repeat: no-repeat;
+        background-size: 87%;
+        min-height: 18cm;
+        width: 13cm;
+        display: block;
+        background-color: #ffffff;
+        background-position: center;
+    }
+
+    
+
+
+    #secaoes p {
+        width: 100%;
+        font-weight: 100;
+        font-size: 25px;
+        text-align: start;
+        padding-left: 2cm;
+        padding-right: 3.3cm;
+        color: rgb(255, 255, 255);
+    }
+
+    #secaoes h3 {
+        color: rgb(255, 255, 255);
+        font-size: 2cm;
+        margin-bottom: 0.5cm;
+        text-align: start;
+        padding-left: 2cm;
+        letter-spacing: -5px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        color: rgb(108, 0, 0);
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 880px) {
+
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -441,34 +741,34 @@ footer {
         width: 100%;
         text-align: center;
     }
-    
+
     .topo {
-        text-align: center; /* Centraliza texto do banner */
+        text-align: center;
         min-height: 60vh;
     }
-    
-    #t1, #t2, .topo p {
-        margin-left: 0; /* Remove margem esquerda */
+
+    #t1,
+    #t2,
+    .topo p {
+        margin-left: 0;
         text-align: center;
     }
-    
+
     .topo p {
-        max-width: 90%; /* Permite que o texto ocupe mais a tela */
-        margin: 1.5rem auto; /* Centraliza o parágrafo */
+        max-width: 90%;
+        margin: 1.5rem auto;
     }
 
-    /* Seções de Cursos viram coluna */
+
     .secaopintura,
     #secaoes {
         flex-direction: column;
     }
 
-    /* Inverte a ordem da seção fotografia para manter padrão (texto, depois imagem) */
     #secaofoto {
         flex-direction: column-reverse;
     }
 
-    /* Todas as colunas das seções ocupam 100% da largura */
     #pesquerda,
     #pdireita,
     #fesquerda,
@@ -478,7 +778,6 @@ footer {
         width: 100%;
     }
 
-    /* Centraliza textos das seções */
     .secaopintura h3,
     .secaopintura p,
     #secaofoto h3,
@@ -486,26 +785,29 @@ footer {
     #secaoes h3,
     #secaoes p {
         text-align: center;
-        padding: 0 1rem; /* Ajusta padding lateral */
+        padding: 0 1rem;
     }
 
-    /* Garante que as imagens de fundo (divs) se centralizem */
-    #cafe, #urban, #david, #tres {
+    #cafe,
+    #urban,
+    #david,
+    #tres {
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-/* Ajuste fino para celulares bem pequenos */
 @media (max-width: 480px) {
     #t1 {
         letter-spacing: 5px;
     }
+
     #t2 {
         letter-spacing: 5px;
         margin-top: -0.5rem;
     }
+
     #conheca {
         letter-spacing: 3px;
     }
-}   
+}
